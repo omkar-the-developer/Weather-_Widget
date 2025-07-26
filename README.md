@@ -1,12 +1,63 @@
-# React + Vite
+# 🌦️ Weather Widget (Real-Time Weather App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React app that fetches real-time weather details of any city using the OpenWeatherMap API and displays a matching image based on current weather conditions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search any city** to get the latest weather details
+- 🌡️ Displays:
+  - Temperature
+  - Feels Like
+  - Weather description
+  - Max & Min temperatures
+  - Humidity
+- 🖼️ Dynamically displays a **relevant weather image** (e.g., cloudy, sunny, rainy)
+- 📱 Fully **responsive UI** with Material-UI components
+- ⚡ Fast and interactive user experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- **React.js**
+- **Material UI (MUI)**
+- **OpenWeatherMap API**
+- **Unsplash / Static Image URLs** for weather visuals
+
+---
+
+## API Used
+OpenWeatherMap
+https://openweathermap.org/api
+
+---
+
+Project Structure
+src/
+│
+├── App.jsx
+├── SearchBox.jsx
+├── InfoBox.jsx
+├── App.css
+├── SearchBox.css
+├── InfoBox.css
+
+---
+
+Author
+Omkar Mahapatra
+
+📧 [omkarmahapatra.02@gmail.com ]
+
+🌐 [(https://www.linkedin.com/in/omkar-mahapatra)]
+
+---
+
+Let me know if:
+- You want me to host a preview image for you.
+- You're deploying this (I can help you set up GitHub Pages, Netlify, or Vercel).
+- You want a badge-style README with icons too.
+
+All set to go, Captain Weather! 🌤️
