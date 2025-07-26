@@ -1,0 +1,45 @@
+/* SearchBox.css */
+
+.search-container {
+  width: auto;
+  max-width: 800px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:  auto; /* Center horizontally */
+}
+
+.main-heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.search-form {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.city-input .MuiOutlinedInput-root {
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.city-input {
+  width: 250px;
+}
+
+.search-button {
+  background-color: #2196f3 !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px !important;
+  text-transform: none;
+}

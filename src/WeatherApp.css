@@ -1,0 +1,33 @@
+/* App.css */
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle at center, #000428, #004e92);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 💡 Good for tall content */
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.app-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
